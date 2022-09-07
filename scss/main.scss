@@ -1,0 +1,62 @@
+@import"./reset.scss";
+
+@import"./fuentes.scss";
+
+@import"./variables/extend.scss";
+
+@import"./secciones/index-main.scss";
+
+@import"./secciones/footer.scss";
+
+
+
+
+
+//MEDIAQUERYS - MOBILE LAST - INDEX HTML
+
+//FOTOS DE INDEX
+@media(max-width: 749px){
+    .flex-lugares{
+    flex-direction:column;
+    align-content:center;
+    }    	
+
+}
+
+//MAPA-RUTA
+@media(max-width: 699px){
+    .mapa-ruta{	
+	flex-direction: column;
+    align-content: center;
+
+  }
+}
+
+//FOOTER
+@media(max-width: 548px){
+    .items-footer{
+    display: none; 	
+  }
+  .btn-what{
+  	right: 50px;
+  	margin: 0px 0px -20px 0px;
+  }
+
+  .redSocial {
+	flex-direction: column;
+	margin: 40px 117px 0px 10px;
+		
+
+}
+
+  .iconos {
+	visibility: visible;
+	flex-direction: column;
+	margin: 40px 0px 0px 10px;
+	
+	
+}
+
+
+}
+
